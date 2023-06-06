@@ -19,6 +19,14 @@ Recon For Ip Address
 
     • amass enum -src -ip -brute -d target.com -o target2.txt
     • censys search 'services.http.response.html_title: "Target"' --index-type hosts | jq -c '.[] | {ip: .ip}' | cut -d '"' -f4 > censysIP.txt
+    
+Directory Search
+
+    > ./dirsearch.py -l target.txt -t -o save.txt --format=plain
+    > ./dirsearch.py -l target.txt -w wordlist.txt -t -o save.txt --format=plain
+    
+
 Scan Of Ips
 
-    • nmap -Pn -p0-65535 -iL ips.txt -sV -A –min-hostgroup 22 –min-rate 50000
+    > nmap -Pn -p0-65535 -iL ips.txt -sV -A –min-hostgroup 22 –min-rate 50000 > nmap.txt
+    > nmap -Pn -p0-65535 -iL domain.txt -sV -A –min-hostgroup 22 –min-rate 50000 > nmap.txt
