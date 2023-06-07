@@ -1,5 +1,6 @@
 Bug Hunting
-This are my own steps for hunting.
+
+Steps for hunting.
 > Search Target : https://chaos.projectdiscovery.io/#/
 
 Recon for subdomain & IP & JS Files
@@ -24,9 +25,10 @@ Directory Search
 
     > ./dirsearch.py -l target.txt -t -o save.txt --format=plain
     > ./dirsearch.py -l target.txt -w wordlist.txt -t -o save.txt --format=plain
+    > ./dirsearch.py -l Ips.txt -t -o save.txt --format=plain
     
 
 Scan Of Ips
 
-    > nmap -Pn -p0-65535 -iL ips.txt -sV -A –min-hostgroup 22 –min-rate 50000 > nmap.txt
-    > nmap -Pn -p0-65535 -iL domain.txt -sV -A –min-hostgroup 22 –min-rate 50000 > nmap.txt
+    > nmap -Pn -p0-65535 -iL IPs.txt -T4 -sC -sV -vv -A --min-hostgroup 22 > nmap.txt
+    > nmap -Pn -p0-65535 -iL domain.txt -T4 -sC -sV -vv -A --min-hostgroup 22 > nmap.txt
