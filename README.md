@@ -32,3 +32,30 @@ Scan Of Ips
 
     > nmap -Pn -p0-65535 -iL IPs.txt -T4 -sC -sV -vv -A --min-hostgroup 22 > nmap.txt
     > nmap -Pn -p0-65535 -iL domain.txt -T4 -sC -sV -vv -A --min-hostgroup 22 > nmap.txt
+    
+Nuclei
+
+    **Easy Mode**
+    > nuclei -u https://target.com
+    > nuclei -l target.txt
+    > nuclei -u target.com:5001                 # For non HTTP/HTTPs
+    > nuclei -u https://target.com -as          # Automatic Selection of Templates
+    > nuclei -u https://target.com -nt          # New Templates
+    
+    **Template Mode**
+    > nuclei -u https://target.com -t /.local/nuclei-templates/             # By Folder
+    > nuclei -u https://target.com -t /.local/nuclei-templates/xss.yaml     # By Filename
+    
+    **Severity Mode**
+    >  nuclei -u https://target.com -s critical,high,medium,low,info
+    
+    **Rate Limit**
+    > nuclei -u https://my.target.site/ -rl 3 -c 2      # restrict outgoing requests to 3 per second and only 2 concurrent
+    
+    **Resume Scan**
+    > nuclei -u https://my.target.site/ -resume /.config/nuclei/resume-ci0lldf58l5ooceq4nj0.cfg
+    
+    
+  
+    
+    
