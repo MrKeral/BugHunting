@@ -55,5 +55,5 @@ Nuclei
     **Resume Scan**
     > nuclei -u https://my.target.site/ -resume /.config/nuclei/resume-ci0lldf58l5ooceq4nj0.cfg
     
-[Vulnerbilities](https://github.com/MrKeral/Hunting/tree/main/Vulnerabilities)   
+#[Vulnerbilities](https://github.com/MrKeral/Hunting/tree/main/Vulnerabilities)   
     
