@@ -1,6 +1,6 @@
-# Bug Hunting?
+# Bug Hunting Methodology
 
-## Steps for hunting.
+## Search target who has large number of Subdomains
 > Search Target : https://chaos.projectdiscovery.io/#/
 
 ## Recon for subdomain & IP & JS Files
