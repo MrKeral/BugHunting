@@ -1,12 +1,10 @@
-inurl /bug bounty
-
-inurl : / security
-
-inurl:security.txt
-inurl:security "reward"
-inurl : /responsible disclosure
-inurl : /responsible-disclosure/ reward
-inurl : / responsible-disclosure/ swag
+    inurl /bug bounty
+    inurl : / security
+    inurl:security.txt
+    inurl:security "reward"
+    inurl : /responsible disclosure
+    inurl : /responsible-disclosure/ reward
+    inurl : / responsible-disclosure/ swag
 inurl : / responsible-disclosure/ bounty
 inurl:'/responsible disclosure' hoodie
 responsible disclosure swag r=h:com
