@@ -59,4 +59,4 @@
     > nuclei -u https://my.target.site/ -resume /.config/nuclei/resume-ci0lldf58l5ooceq4nj0.cfg
     
 ## Vulnerbilities
-    [Open Redirect](https://github.com/MrKeral/BugHunting/blob/main/Vulnerabilities/OpenRedirect.md)
+   [Open Redirect](https://github.com/MrKeral/BugHunting/blob/main/Vulnerabilities/OpenRedirect.md)
