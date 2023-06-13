@@ -1,5 +1,7 @@
 inurl /bug bounty
+
 inurl : / security
+
 inurl:security.txt
 inurl:security "reward"
 inurl : /responsible disclosure
