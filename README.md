@@ -3,7 +3,7 @@
 ## Search target who has large number of Subdomains
 > Search Target : https://chaos.projectdiscovery.io/#/
 
-## Search Using Google Dorks
+## Search target using Google Dorks
 > [VDP Google Dorks](https://github.com/MrKeral/BugHunting/blob/main/VDP-Dorks/VDP%20Dork.md)
 
 ## Recon for subdomain & IP & JS Files
