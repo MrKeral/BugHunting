@@ -20,7 +20,7 @@
     • cat waybackurls.txt | grep js | tee -a jsfile.txt
 
 ## Shodan
-         > ssl:"site.com"
+    > ssl:"site.com"
         
 ## Recon For Ip Address 
 
