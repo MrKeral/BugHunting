@@ -18,7 +18,10 @@
     • httpx -l domain.txt -mc 200 > 200.txt
     • httpx -l domain.txt -mc 301 > 301.txt
     • cat waybackurls.txt | grep js | tee -a jsfile.txt
-    
+
+## Shodan
+         > ssl:"site.com"
+        
 ## Recon For Ip Address 
 
     • amass enum -src -ip -brute -d target.com -o target2.txt
